@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,59 +7,60 @@
     <title>REGISTRATION FORM</title>
 </head>
 <body>
-    <header><b>STUDENT REGISTRATION FORM</b></header><br><hr>
+    <h2><header><b>STUDENT REGISTRATION FORM</b></header><br></h2> <hr>
+
     <form>
-    <label for="name">FullName:  </label>
-    <input type="text" id="name" name="name"><br><br><hr>
+        <label for="name"><b>FullName: </b></label>
+        <input type="text" id="name" name="name"><br><br>
 
-    <label for="email">Email:  </label>
-    <input type ="text" id="email" name ="email"> <br> <BR><hr>
+        <label for="email"><b>Email: </b></label>
+        <input type="text" id="email" name="email"><br><br>
 
-    <label for="AGE">Age: </label>
-        <input type="number" id="age" name="age">
-        <br><br><hr>
+        <label for="AGE"><b>AGE:</b></label>
+        <input type="number" id="age" name="age"><br><br>
 
-    <label for="phone">Phone#   </label>
-    <input type ="tel" id="phone" name ="phone"><br><br><hr>
-    
+        <label for="phone"><b>Phone# </b></label>
+        <input type="tel" id="phone" name="phone"><br><br>
 
-    <label for="address">Address: </label>
-    <input type ="text" id="address" name ="address"><br>  <br> <hr>
-    
-    <label for="gender">Gender:  </label><br><br>
-    <input type="radio" id="male" name="gender" value="male">
-    
-    <label for="male">Male </label>
-    <input type="radio" id="female" name="gender" value="female">
-    
-    <label for="female">Female </label> 
-    <input type="radio" id="other" name="gender" value="other"><br><br>
-        <label for="other">Other </label><br><br><hr>
+        <label for="address"><b>Address: </b></label>
+        <input type="text" id="address" name="address"><br><br>
 
- <label for="course">Select Course:</label><br></br>
-    <select id="course" name="course">
-        <option value="cs">Computer Science</option>
-        <option value="it">Information Technology</option>
-        <option value="ai">AI</option>
-    </select><br><br><hr>
+        <label for="gender"><b>Gender: </b></label><br><br>
 
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
 
-<label>Skills:</label>
-<input type="Checkbox" id="html" name="skills" value="HTML">
-<label for="html">HTML</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
 
-<input type="checkbox" id="css" name="skills" value="CSS">
-<label for="css">CSS</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
 
-<input type="checkbox" id="js" name="skills" value="JavaScript">
-<label for="js">JavaScript</label> <br> <Br><hr>
+        <label for="course"><b>Select Course:</b></label><br><br>
 
-<label for="message">Message:</label>
-<textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
-<hr>
-        <button type="reset">Reset</button>
-        <button type="submit">Submit</button>
+        <select id="course" name="course">
+            <option value="cs">Computer Science</option>
+            <option value="it">Information Technology</option>
+            <option value="ai">AI</option>
+        </select><br><br>
 
+        <label for="skills"><b>Skills: </b></label>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+
+        <label for="message"><b>Message:</b></label>
+        <textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
+        <br><br>
+
+        <button type="reset"><b>Reset</b></button>
+        <button type="submit"><b>Submit</b></button>
 
     </form>
 </body>
