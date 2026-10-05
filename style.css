@@ -1,0 +1,130 @@
+/* Body */
+body {
+    background-color: #f3efff;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 15px;;
+    padding: 40px;
+}
+
+/* Main form box */
+.form-box {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #d5c7f5;
+    border-radius: 12px;
+}
+
+/* Header */
+header {
+    background-color: #cec1f4;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    color: #5b3ca8;
+}
+
+/* Section */
+section {
+    background-color: #faf9ff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd2f2;
+    border-radius: 8px;
+}
+
+/* Section headings */
+h2 {
+    color: #5b3ca8;
+    border-bottom: 1px solid #d5c7f5;
+    padding-bottom: 8px;
+}
+
+/* Labels */
+label {
+    color: #4616bf;
+    margin-top: 12px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #c8bde0;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+
+/* Input focus */
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #6d4bc3;
+    outline: none;
+}
+
+/* Radio buttons and checkboxes */
+.options {
+    background-color: #f3efff;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.options label {
+    display: inline;
+    margin-right: 5px;
+}
+
+.options input {
+    margin-right: 15px;
+}
+
+/* Message */
+textarea {
+    height: 100px;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #6d4bc3;
+    color: white;
+    padding: 10px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #4d328f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #eee8ff;
+    color: #5b3ca8;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 8px;
+}
